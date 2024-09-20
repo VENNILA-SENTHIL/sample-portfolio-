@@ -1,0 +1,29 @@
+.pic{
+    border-radius: 50%;
+    border:0.5px solid rgb(253, 248, 248);
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+}
+.wet{
+    -webkit-text-fill-color: rgb(26, 23, 43);
+}
+button{
+    background-color:rgb(243, 246, 247);
+}
+.right{
+    position:fixed;
+    top:50px;
+    right:350px;
+    text-align: auto;
+}
+.right h1{
+    font-size:46px;
+    color:black;
+    margin-top: 80px;
+}

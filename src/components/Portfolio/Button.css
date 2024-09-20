@@ -1,0 +1,24 @@
+button{
+    background-color:rgb(219, 233, 240);
+    border: none;
+    padding:10px 15px;
+    font-size: 16px;
+    
+    
+}
+body{
+    margin:0;
+    padding:0;
+}
+.button-container{
+    position:fixed;
+    top:0;
+    left:50;
+    width:auto;
+    background-color:rgb(148, 203, 207);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgpa(0,0,0,0.1);
+    left:500px;
+    display:flex;
+    gap:30px;
+}
