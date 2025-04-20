@@ -1,0 +1,12 @@
+name: Push Notification
+
+on:
+  push:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send notification
+        run: |
+          echo "Push detected on branch ${{ github.ref }} by ${{ github.actor }} at ${{ github.event.head_commit.timestamp }}"
